@@ -1,0 +1,18 @@
+{
+  "name": "nfc-room-tour-writer",
+  "version": "1.0.0",
+  "author": "",
+  "private": true,
+  "license": "ISC",
+  "scripts": {
+    "write": "node scripts/writer.js",
+    "read": "node scripts/reader.js",
+    "generate-rooms": "node scripts/generate-rooms.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^7.3.3",
+    "nfc-pcsc": "^0.8.0",
+    "uuid": "^8.3.1"
+  }
+}
